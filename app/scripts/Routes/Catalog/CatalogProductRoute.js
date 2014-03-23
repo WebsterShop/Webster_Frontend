@@ -8,15 +8,5 @@ Webster.CatalogProductRoute = Webster.AbstractRoute.extend({
 
     model: function(params) {
         console.log(params);
-//        var products = Webster.Session.get('productCollection');
-//        console.log('model product');
-//        console.log(products);
-//        var product;
-//        products.forEach(function(item){
-//            if(params.product_id == item.id){
-//                product = item;
-//            }
-//        });
-//        return product;
     }
 });
