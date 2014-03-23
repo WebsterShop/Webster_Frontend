@@ -1,4 +1,4 @@
-Webster.CatalogProductRoute = Ember.Route.extend({
+Webster.CatalogProductRoute = Webster.AbstractRoute.extend({
     setupController: function(controller, model){
         var productId = model.id;
         Webster.MessageProcessor.processOutgoing({'type': 'Catalog\\Product', 'action': 'get', 'content': {'product_id': productId}});
@@ -18,14 +18,5 @@ Webster.CatalogProductRoute = Ember.Route.extend({
 //            }
 //        });
 //        return product;
-    },
-
-    beforeModel: function(transition){
-        if(!Webster.Socket.get('online')){
-            console.log('not online, going back to start');
-            transition.abort;
-            Webster.Session.set('transition', transition);
-            this.transitionTo('start');
-        }
     }
 });
