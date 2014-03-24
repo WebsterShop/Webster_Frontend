@@ -1,7 +1,7 @@
 {
-  "name": "webster",
+  "name": "Webster_Webapp",
   "version": "0.0.1",
-  "author": "Matthias Witte, Florian Sydekum",
+  "author": "Florian Sydekum",
   "dependencies": {},
   "devDependencies": {
     "grunt": "~0.4.1",
