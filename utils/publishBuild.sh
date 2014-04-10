@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 BRANCH=builds
-TARGET_REPO=WebsterShop/Webapp.git
+TARGET_REPO=WebsterShop/Frontend.git
 DIST_FOLDER=dist
 CLONE_FOLDER=builds
 

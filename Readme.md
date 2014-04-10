@@ -1,4 +1,4 @@
-# WebsterShop Webapp #
+# WebsterShop Frontend #
 
 [![Build Status](https://travis-ci.org/WebsterShop/Webapp.png?branch=master)](https://travis-ci.org/WebsterShop/Webapp)
 
